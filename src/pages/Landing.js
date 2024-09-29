@@ -20,11 +20,12 @@ export default function Landing() {
       <Navbar className="" />
       <div>
         <div className="flex ">
-          <img
-            className="  h-screen m-0 p-0 bg-center bg-fixed bg-cover bg-no-repeat object-cover object-center"
-            src="/images/backg.png"
-            alt="background-image"
-          />
+        <img
+  style={{ opacity: 0.1 }}
+  className="h-screen m-0 p-0 bg-center bg-fixed bg-cover bg-no-repeat object-cover object-center"
+  src="/images/backg.png"
+  alt="background-image"
+/>
           <div
             className={` absolute mt-[300px] ml-4 text-md sm:text-xl md:text-2xl lg:text-3xl font-bold ${
               scroll ? "text-cyan-500 text-opacity-80 " : "text-indigo-300"
