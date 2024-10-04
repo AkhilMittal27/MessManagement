@@ -55,30 +55,65 @@ const HostelCard = ({ title, content }) => {
 const data = [
   {
     link: "tandon",
-    name: `P.D.Tandon Hostel`,
-    img: `/assets/tandon.jpeg`,
+    name: `Aurbindo`,
+    img: `/assets/aurbindo.jpg`,
     about: `Lorem ipsum dolor  elit, 
         sed do  aliqua.`,
   },
-
+  {
+    link: "malviya",
+    name: `Vinodini`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
   {
     link: "tilak",
-    name: `Tilak Hostel`,
-    img: `/assets/tandon.jpeg`,
+    name: `Parijat`,
+    img: `/assets/aurbindo.jpg`,
     about: `Lorem ipsum dolor sit amet, consectetur.`,
   },
 
   {
     link: "patel",
-    name: `Patel Hostel`,
-    img: `/assets/tandon.jpeg`,
+    name: `Drona`,
+    img: `/assets/aurbindo.jpg`,
     about: `Lorem ipsum dolor sit amet, consectetur.`,
   },
 
   {
     link: "malviya",
-    name: `Malviya Hostel`,
-    img: `/assets/tandon.jpeg`,
+    name: `Kabir`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
+  {
+    link: "malviya",
+    name: `Lohit`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
+  {
+    link: "malviya",
+    name: `Chaitanya`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
+  {
+    link: "malviya",
+    name: `Satputra`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
+  {
+    link: "malviya",
+    name: `Varun`,
+    img: `/assets/aurbindo.jpg`,
+    about: `Lorem ipsum dolor sit amet, consectetur .`,
+  },
+  {
+    link: "malviya",
+    name: `Brihaspati`,
+    img: `/assets/aurbindo.jpg`,
     about: `Lorem ipsum dolor sit amet, consectetur .`,
   },
 ];

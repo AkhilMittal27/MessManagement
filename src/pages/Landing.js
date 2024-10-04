@@ -20,12 +20,14 @@ export default function Landing() {
       <Navbar className="" />
       <div>
         <div className="flex ">
-        <img
-  style={{ opacity: 0.1 }}
-  className="h-screen m-0 p-0 bg-center bg-fixed bg-cover bg-no-repeat object-cover object-center"
-  src="/images/backg.png"
-  alt="background-image"
-/>
+        <div className="relative h-screen">
+  <img
+    className="h-full w-full object-cover object-center"
+    src="/images/backg.png"
+    alt="background-image"
+  />
+  <div className="absolute inset-0 bg-black bg-opacity-50"></div> {/* Dark overlay */}
+</div>
           <div
             className={` absolute mt-[300px] ml-4 text-md sm:text-xl md:text-2xl lg:text-3xl font-bold ${
               scroll ? "text-cyan-500 text-opacity-80 " : "text-indigo-300"
